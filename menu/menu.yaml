@@ -1,6 +1,15 @@
+items: 
+ test: '', test1: ''
+
+server: 'local'
+
 menu: 
  - name: '123'
- - action: '234'
+ - type: "cmd"
+ - script: '234'
+ - args: '--verbose'
+ - protocol: '' // 
+ - remote: false
  - path: './'
  
  
