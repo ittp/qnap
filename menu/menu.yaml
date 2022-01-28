@@ -1,0 +1,6 @@
+menu: 
+ - name: '123'
+ - action: '234'
+ - path: './'
+ 
+ 
