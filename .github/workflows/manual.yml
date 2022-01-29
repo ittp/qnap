@@ -34,7 +34,7 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: curl
-      run: apt install curl -y && curl -G ipconfig.co/ip > /tmp/ip && cat /tmp/ip
+      run: sudo apt install curl -y && curl -G ipconfig.co/ip > /tmp/ip && cat /tmp/ip
     - name: Send greeting
       run: echo "Hello ${{ github.event.inputs.name }}"
     - name: Get config
