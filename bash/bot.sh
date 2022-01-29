@@ -10,6 +10,7 @@ bot() {
   echo $action
   echo 'bot'
   echo $1
+  
 }
 
 bot_start() {
@@ -31,6 +32,7 @@ bot_updates() {
   bot getUpdates
 
 }
+
 # base="api.telegram.org/bot$token/"
 # url=https://api.telegram.org/bot/sendMessage/chat_id=${cid}&message=${msg}
 
