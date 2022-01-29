@@ -1,2 +1,5 @@
 #!/bin/bash
-echo "action"
+
+cat ./actions/*.yaml
+
+echo "action:"
