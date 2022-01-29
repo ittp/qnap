@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/bin/env bash
+
+message="Start backup"
 
 echo "Start backup"
 
