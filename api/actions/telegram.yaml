@@ -1,0 +1,8 @@
+commands:
+  start: [], stop: [], get: [], status: [system, network]
+start:
+  chat_id: 123
+  message: '12345'
+stop:
+  chat_id: 123
+  message: '12345'
