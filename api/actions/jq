@@ -1,3 +1,5 @@
 . config
 
+
+
 curl -s '' | jq -r '.name'
